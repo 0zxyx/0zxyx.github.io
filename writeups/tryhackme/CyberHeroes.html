@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+        <head>
+                <meta charset="utf-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta name="description" content="tryhackme writeup.">
+                <meta name="keywords" content="0zxyx, tryhackme, thm, writeups">
+                <meta name="author" content="0zxyx">
+                <link rel="stylesheet" type="text/css" href="/css/styles.css">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+                <title>TryHackMe CyberHeroes Writeup | 0zxyx.com</title>
+        </head>
+
+        <body>
+
+
+        <h1 class="head">TryHackMe CyberHeroes Writeup</h1>
+
+
+        <div class="nav-menu">
+                <a href="/" class="nav-link">HOME</a>
+                <a href="/writeups" class="nav-link">WRITEUPS</a>
+                <a href="https://twitter.com/messages/compose?recipient_id=1241195067806605314" class="nav-link">CONTACT</a>
+                <a href="/blog" class="nav-link">BLOG</a>
+        </div>
+
+        <a href="https://www.buymeacoffee.com/0zxyx">
+                <img  class="buymelogo" alt="Buy me a coffee" src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg">
+        </a>
+	
+	<p class="para">Today we are going to do <a href="https://tryhackme.com/room/cyberheroes">CyberHeroes</a> from tryhackme.</p>
+
+<div class="container">
+
+        <p class="sec">Let's run nmap.</p>
+        <hr class="sec-hr">
+
+        <img class="sec-img" src="/img/thm/1/1.png">
+
+        <p class="sec-text">found port 22,80 open.</p>
+
+        <p class="sec">Let's visit homepage.</p>
+        <hr class="sec-hr">
+
+        <img class="sec-img" src="/img/thm/1/2.png">
+
+        <p class="sec-text">found a login page.</p>
+
+        <p class="sec" >Let's run gobuster on port 80</p>
+        <hr class="sec-hr">
+
+        <img class="sec-img" src="/img/thm/1/3.png">
+
+        <p class="sec-text">found login.html from both home page and gobuster.</p>
+
+        <p class="sec" >Let's visit login page</p>
+        <hr class="sec-hr">
+
+        <img class="sec-img" src="/img/thm/1/4.png">
+
+        <p class="sec-text">tried some common credentials but not luck.</p>
+
+        <p class="sec" >Let's see how this login function works</p>
+        <hr class="sec-hr">
+
+        <img class="sec-img" src="/img/thm/1/5.png">
+
+        <p class="sec-text">login function works with javascript and found the user name and reversed password.</p>
+
+        <p class="sec" >Let's reverse password</p>
+        <hr class="sec-hr">
+
+        <img class="sec-img" src="/img/thm/1/6.png">
+
+        <p class="sec-text">we found the password.</p>
+
+
+        <p class="sec" >Let's login with creds we found</p>
+        <hr class="sec-hr">
+
+        <img class="sec-img" src="/img/thm/1/7.png">
+
+        <p class="sec-text">bingo we nailed it  see you later.</p>
+	<hr class="sec-hr">
+
+</div>
+
+        <div class="icon-list">
+                <a href="https://github.com/0zxyx" class="github"><i class="fa-brands fa-github"></i></a>
+                <a href="https://twitter.com/0zxyx" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+
+        <a href="#" class="gotop">
+                <i class="fa-solid fa-arrow-up"></i>
+        </a>
+
+        <script src="/js/main.js"></script>
+
+
+</div>
+</body>
+</html>
+
