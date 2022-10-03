@@ -327,9 +327,9 @@ body {
 	position: absolute;
         text-align: center;
         color: #12dc00;
-        top: 35%;
+        top: 37%;
         left: -25%;
-	margin-top: 4%;
+	margin-top: 5%;
         text-align: center;
         color: #12dc00;
         width: 85%;
@@ -497,37 +497,45 @@ body {
 }
 
 
+.container {
+	
+	position: absolute;
+	top: 45%;
+
+}
 
 
 .sec {
-        text-align: left;
-        margin-left: 23%;
-        margin-top: 6%;
-        font-size: 150%;
+
+	text-align: left;
+        margin-left: 13%;
+        margin-right: 13%;
+        font-size: 100%;
         color:#12dc00;
 }
 
 .sec-img {
-        width: 55%;
-        height: 55%;
+        width: 75%;
+        height: 75%;
         margin-top: 6%;
-        margin-left: 24%;
+        margin-left: 7%;
         margin-bottom: 5%;
 }
 
 .sec-text {
         text-align: left;
-        margin-bottom: 1%;
         margin-right: 33%;
-        margin-left: 25%;
-        font-size: 120%;
+        margin-left: 15%;
+        font-size: 90%;
         color: #637373;
         text-decoration: underline;
 }
 
 .sec-hr{
-        width: 60%;
+        width: 70%;
 }
+
+
 
 
 .icon-list {
@@ -642,14 +650,14 @@ body {
 	position: absolute;
         text-align: center;
         color: #12dc00;
-        top: 35%;
+        top: 37%;
         left: -25%;
 	margin-top: 4%;
         text-align: center;
         color: #12dc00;
         width: 85%;
         height: 15%;
-        font-size: 100%;
+        font-size: 90%;
 }
 
 
@@ -811,45 +819,51 @@ body {
         font-weight: 1000;
 }
 
+.container {
+	
+	position: absolute;
+	top: 45%;
 
+}
 
 
 .sec {
-        text-align: left;
-        margin-left: 23%;
-        margin-top: 6%;
-        font-size: 150%;
+
+	text-align: left;
+        margin-left: 13%;
+        margin-right: 13%;
+        font-size: 100%;
         color:#12dc00;
 }
 
 .sec-img {
-        width: 55%;
-        height: 55%;
+        width: 75%;
+        height: 75%;
         margin-top: 6%;
-        margin-left: 24%;
+        margin-left: 7%;
         margin-bottom: 5%;
 }
 
 .sec-text {
         text-align: left;
-        margin-bottom: 1%;
         margin-right: 33%;
-        margin-left: 25%;
-        font-size: 120%;
+        margin-left: 15%;
+        font-size: 90%;
         color: #637373;
         text-decoration: underline;
 }
 
 .sec-hr{
-        width: 60%;
+        width: 70%;
 }
+
 
 
 .icon-list {
   position: fixed;
   top: 85%;
   right: 1%;
-  width: 15%;
+  width: 12%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -860,7 +874,7 @@ body {
   text-align: center;
   padding: 7px;
   color: #eee;
-  font-size: 33px;
+  font-size: 28px;
 }
 
 
