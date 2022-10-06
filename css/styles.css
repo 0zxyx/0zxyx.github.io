@@ -48,6 +48,7 @@ body {
         top: 3%;
         position: fixed;
         font-size: 100%;
+	z-index: 1;
 }
 
 
@@ -76,11 +77,13 @@ body {
            
 }
 
-
 .search-box {
+        position: absolute;
         display: block;
+        top: 15%;
+        right: 1%;
         margin: 0 auto;
-        width: 25%;
+        width: 10%;
         border: 5px #2e2e2e;
         border-radius: 20px;
         font-size: 17px;
@@ -96,16 +99,43 @@ body {
 
 
 .search-box:focus {
-        width: 40%;
+        width: 25%;
 }
 
 
-.counter {
-        margin-left: 25%;
-        width: 75%;
-        font-size: 110%;
+.result {
+	
+	position: absolute;
+        top: 25%;
+        right: 1%;
+        width: 25%;
+        font-size: 100%;
         color: #12dc00;
         padding-bottom: 2%;
+	z-index: 1;
+}
+
+
+.result-link{
+        display: block;
+        padding: 13px;
+        text-decoration: none;
+        background-image: linear-gradient(to left, #232323 8%, #637373 60%);
+        color: #12dc00;
+        border-radius: 25px;
+        text-align: left;
+        margin-top: 2%;
+        font-size: 90%;
+        transition: 1s;
+        background-size: 200% auto;
+        box-shadow: 0 0 20px #101010;
+            
+
+}
+
+.result-link:hover {
+        background-position: right center;
+        color: #12dc00;
 }
 
 
@@ -243,6 +273,7 @@ body {
 }
 
 .gotop {
+	display: none;
         position: fixed;
         bottom: 8%;
         right: 8%;
@@ -360,6 +391,7 @@ body {
         top: 8%;
         position: fixed;
         font-size: 90%;
+	z-index: 1;
 }
 
 
@@ -389,10 +421,14 @@ body {
 }
 
 
+
 .search-box {
+        position: absolute;
         display: block;
+        top: 15%;
+        right: 1%;
         margin: 0 auto;
-        width: 25%;
+        width: 10%;
         border: 5px #2e2e2e;
         border-radius: 20px;
         font-size: 17px;
@@ -408,17 +444,46 @@ body {
 
 
 .search-box:focus {
-        width: 40%;
+        width: 25%;
 }
 
 
-.counter {
-        margin-left: 25%;
-        width: 75%;
-        font-size: 110%;
+.result {
+	
+	position: absolute;
+        top: 25%;
+        right: 1%;
+        width: 25%;
+        font-size: 100%;
         color: #12dc00;
         padding-bottom: 2%;
+	z-index: 1;
 }
+
+
+.result-link{
+        display: block;
+        padding: 13px;
+        text-decoration: none;
+        background-image: linear-gradient(to left, #232323 8%, #637373 60%);
+        color: #12dc00;
+        border-radius: 25px;
+        text-align: left;
+        margin-top: 2%;
+        font-size: 90%;
+        transition: 1s;
+        background-size: 200% auto;
+        box-shadow: 0 0 20px #101010;
+            
+
+}
+
+.result-link:hover {
+        background-position: right center;
+        color: #12dc00;
+}
+
+
 
 
 .wp-menu {
@@ -518,7 +583,7 @@ body {
         width: 75%;
         height: 75%;
         margin-top: 6%;
-        margin-left: 7%;
+        margin-left: 10%;
         margin-bottom: 5%;
 }
 
@@ -540,9 +605,9 @@ body {
 
 .icon-list {
   position: fixed;
-  top: 85%;
+  top: 90%;
   right: 1%;
-  width: 15%;
+  width: 10%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -553,7 +618,7 @@ body {
   text-align: center;
   padding: 7px;
   color: #eee;
-  font-size: 33px;
+  font-size: 25px;
 }
 
 
@@ -564,11 +629,12 @@ body {
 }
 
 .gotop {
-	opacity: 0;
+	
+	display: none;
         position: fixed;
-        bottom: 8%;
-        right: 8%;
-        font-size: 70%;
+        bottom: 25%;
+        right: 5%;
+        font-size: 75%;
         background-color:  #141837;
         background: linear-gradient(180deg, #141837 14%, #119bb6 100%); 
         color: #eee;
@@ -683,6 +749,7 @@ body {
         top: 8%;
         position: fixed;
         font-size: 90%;
+	z-index: 1;
 }
 
 
@@ -713,12 +780,15 @@ body {
 
 
 .search-box {
+        position: absolute;
         display: block;
+        top: 15%;
+        right: 1%;
         margin: 0 auto;
-        width: 25%;
+        width: 10%;
         border: 5px #2e2e2e;
         border-radius: 20px;
-        font-size: 17px;
+        font-size: 80%;
         font-weight: 700;
         background-color: #868683;
         background-position: 13px 13px; 
@@ -731,17 +801,46 @@ body {
 
 
 .search-box:focus {
-        width: 40%;
+        width: 25%;
 }
 
 
-.counter {
-        margin-left: 25%;
-        width: 75%;
-        font-size: 110%;
+.result {
+	
+	position: absolute;
+        top: 22%;
+        width: 30%;
+        font-size: 90%;
         color: #12dc00;
         padding-bottom: 2%;
+	z-index: 1;
 }
+
+
+.result-link{
+        display: block;
+        padding: 13px;
+        text-decoration: none;
+        background-image: linear-gradient(to left, #232323 8%, #637373 60%);
+        color: #12dc00;
+	word-wrap: break-word;
+        border-radius: 25px;
+        text-align: center;
+        margin-top: 2%;
+        font-size: 90%;
+        transition: 1s;
+        background-size: 200% auto;
+        box-shadow: 0 0 20px #101010;
+            
+
+}
+
+.result-link:hover {
+        background-position: right center;
+        color: #12dc00;
+}
+
+
 
 
 .wp-menu {
@@ -840,7 +939,7 @@ body {
         width: 75%;
         height: 75%;
         margin-top: 6%;
-        margin-left: 7%;
+        margin-left: 10%;
         margin-bottom: 5%;
 }
 
@@ -861,7 +960,7 @@ body {
 
 .icon-list {
   position: fixed;
-  top: 85%;
+  top: 90%;
   right: 1%;
   width: 12%;
   -webkit-transform: translateY(-50%);
@@ -885,10 +984,11 @@ body {
 }
 
 .gotop {
-	opacity: 0;
+
+	display: none;
         position: fixed;
-        bottom: 8%;
-        right: 8%;
+        bottom: 25%;
+        right: 5%;
         font-size: 70%;
         background-color:  #141837;
         background: linear-gradient(180deg, #141837 14%, #119bb6 100%); 
