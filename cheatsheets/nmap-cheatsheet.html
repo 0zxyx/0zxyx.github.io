@@ -1,0 +1,171 @@
+ <!DOCTYPE html>
+ <html>
+	 <head>
+		 <meta charset="utf-8">
+		 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                 <meta name="description" content="Nmap CheatSheet">
+                 <meta name="keywords" content="nmap, pentesting, cheatsheets">
+                 <meta name="author" content="0zxyx">
+		 <link rel="stylesheet" href="/css/styles.css">
+		 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		 
+		 <title>Nmap CheatSheet | 0zxyx.com</title>
+	 </head>
+
+	 <body>
+
+		 <h1 class="head">Nmap CheatSheet</h1>
+
+		 <a href="javascript:void(0);" class="menu">
+			 <i class="fa-solid fa-bars"></i>
+		 </a>
+
+
+		 <div class="nav-menu">
+			 <a href="/" class="nav-link">Home</a>
+			 <a href="/cheatsheets/" class="nav-link">Cheatsheets</a>
+			 <a href="/writeups/" class="nav-link">Writeups</a>
+			 <a href="/blog/" class="nav-link">Blog</a>
+			 <a href="https://twitter.com/messages/compose?recipient_id=1241195067806605314" class="nav-link">Contact</a>
+		 </div>
+
+		<a href="https://www.buymeacoffee.com/0zxyx">
+                         <img  class="buymelogo" alt="Buy me a coffee" src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg">
+                 </a>
+
+                 <input type="text" placeholder="Search" class="search-box" >
+
+                 <div class="result">
+                         <script src="/js/search.js"></script>
+                 </div>
+
+		 <div class="icon-list">
+			 <a href="https://github.com/0zxyx" class="github"><i class="fa-brands fa-github github"></i></a> 
+			 <a href="https://twitter.com/0zxyx" class="twitter"><i class="fa-brands fa-twitter"></i></a> 
+		 </div>
+
+		 <div class="bcontainer">
+
+			 <table>
+				 <tr>
+					 <th>Command</th>
+					 <th>Description</th>
+				 </tr>
+
+				 <tr>
+					 <td>nmap -Pn target_ip</td>
+					 <td>Scan All Hosts As Online</td>
+				 </tr>
+				 <tr>
+					 <td>nmap -sT target_ip</td>
+					 <td>Tcp Connect Port Scan</td>
+				 </tr>
+				 <tr>
+					 <td>nmap -sS target_ip</td>
+					 <td>Tcp Syn Port Scan</td>
+				 </tr>
+				 <tr>
+					 <td>nmap -sA target_ip</td>
+					 <td>Tcp Ack Port Scan</td>
+				 </tr>
+				 <tr>
+					 <td>nmap -sn target_ip</td>
+					 <td>Tcp Null Port Scan</td>
+				 </tr>
+				 <tr>
+					 <td>nmap -sU target_ip</td>
+					 <td>Udp Port Scan</td>
+				 </tr>
+				 <tr>
+					 <td>nmap -sS -T Sneaky target_ip</td>
+					 <td>Sneaky Scan</td>
+				 </tr>
+				 <tr>
+					 <td>nmap -sW target_ip</td>
+					 <td>Tcp Window Scan</td>
+				 </tr>
+				 <tr>
+					 <td>nmap -sM target_ip</td>
+					 <td>Tcp Maimon Scan</td>
+				 </tr>
+				 <tr>
+					 <td>nmap --source-port target_port target_ip</td><td>Source Port Scan</td>
+				 </tr>
+				 <tr>
+					 <td>nmap -g target_port target_ip</td><td>Source Port Scan</td>
+				 </tr>
+				 <tr>
+					 <td>nmap --spoof-mac 22:33:44:55:66:77 target_ip -Pn</td><td>MAC Address Spoof</td>
+				 </tr>
+				 <tr>
+					 <td>nmap --data-length 50  target_ip</td><td>Add Junk Data to Packets</td>
+				 </tr>
+				 <tr>
+					 <td>nmap -sP target_ip</td><td>Scan Without Port Scan</td>
+				 </tr>
+				 <tr>
+					 <td>nmap -O target_ip</td>
+					 <td>Os Detection</td>
+				 </tr>
+				 <tr>
+					 <td>nmap -sS -D ip1,ip2,ip3 target_ip</td>
+					 <td>Scan With Fake Ips</td>
+				 </tr>
+				 <tr>
+					 <td>nmap -sS -D RND:3 target_ip</td>
+					 <td>Scan With Random Fake Ips</td>
+				 </tr>
+				 <tr>
+					 <td>nmap --mtu 8 target_ip</td>
+					 <td>Custom Mtu</td>
+				 </tr>
+				 <tr>
+					 <td>nmap -f target_ip</td>
+					 <td>Packet Fragment</td>
+				 </tr>
+				 <tr>
+					 <td>nmap -sS -f --send-eth target_ip</td>
+					 <td>Packet Fragments  With Raw Frames</td>
+				 </tr>
+				 <tr>
+					 <td>nmap -sS -f --mtu 16 --send-eth target_ip</td>
+					 <td>Packet Fragments and Raw Frames With Custom Mtu</td>
+				 </tr>
+				 <tr>
+					 <td>nmap -sA --reason target_ip</td>
+					 <td>Tcp Ack Scan With Reason Flag</td>
+				 </tr>
+				 <tr>
+					 <td>nmap -sN target_ip --reason</td>
+					 <td>Tcp Null Scan With Reason Flag</td>
+				 </tr>
+				 <tr>
+					 <td>nmap -sF target_ip --reason</td>
+					 <td>Tcp Fin Scan With Reason Flag</td>
+				 </tr>
+				 <tr>
+					 <td>nmap -sX target_ip --reason</td>
+					 <td>Tcp Xmas Scan With Reason Flag</td>
+				 </tr>
+				 <tr>
+					 <td>nmap -Pn -sV -p target_port --script http-methods --script-args http-methods.test=all target_ip</td>
+					 <td>Script Scan</td>
+				 </tr>
+
+			 </table>
+		 </div>
+
+
+
+
+		 <a href="#" class="gotop">
+			 <i class="fa-solid fa-arrow-up"></i></a>
+		 <script src="/js/top.js"></script>
+		 <script src="/js/scroll.js"></script>
+
+
+
+	 </body>
+
+ </html> 
