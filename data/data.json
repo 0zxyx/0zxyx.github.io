@@ -1,9 +1,5 @@
 [
 	{
-		"name":"cyberheroes writeup",
-		"link": "/writeups/tryhackme/CyberHeroes.html"
-	},
-	{
 		"name":"hackthebox",
 		"link": "/writeups/hackthebox/"
 	},
@@ -12,5 +8,19 @@
 		
 		"name":"tryhackme",
 		"link": "/writeups/tryhackme/"
+	},
+	
+	{
+		"name":"cyberheroes writeup",
+		"link": "/writeups/tryhackme/CyberHeroes.html"
+	},
+
+	{
+		"name":"linux x86 and x64 syscall",
+		"link": "/blog/linux-syscall.html/"
+	},
+	{
+		"name":"nmap cheatsheet",
+		"link": "/cheatsheets/nmap-cheatsheet.html"
 	}
 ]
