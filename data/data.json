@@ -1,17 +1,22 @@
 [
 	{
-		"name":"hackthebox",
+		"name":"HackTheBox",
 		"link": "/writeups/hackthebox/"
+	},
+
+	{
+		"name":"MetaTwo Writeup",
+		"link": "/writeups/hackthebox/MetaTwo.html"
 	},
 	
 	{
 		
-		"name":"tryhackme",
+		"name":"Tryhackme",
 		"link": "/writeups/tryhackme/"
 	},
 	
 	{
-		"name":"cyberheroes writeup",
+		"name":"CyberHeroes Writeup",
 		"link": "/writeups/tryhackme/CyberHeroes.html"
 	},
 
