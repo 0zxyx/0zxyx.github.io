@@ -771,6 +771,7 @@ body {
 .code {
         position: absolute;
         top: 1%;
+	overflow: none;
 }
 .cp-btn {
         position: absolute;
@@ -1204,6 +1205,7 @@ body {
 .code {
         position: absolute;
         top: 1%;
+	overflow: none;
 }
 .cp-btn {
         position: absolute;
