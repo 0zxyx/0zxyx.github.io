@@ -10,6 +10,11 @@
 	},
 	
 	{
+		"name":"Precious Writeup",
+		"link": "/writeups/hackthebox/Precious.html"
+	},
+	
+	{
 		
 		"name":"Tryhackme",
 		"link": "/writeups/tryhackme/"
