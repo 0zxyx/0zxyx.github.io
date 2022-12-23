@@ -15,6 +15,11 @@
 	},
 	
 	{
+		"name":"Soccer Writeup",
+		"link": "/writeups/hackthebox/Soccer.html"
+	},
+	
+	{
 		
 		"name":"Tryhackme",
 		"link": "/writeups/tryhackme/"
