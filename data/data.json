@@ -20,6 +20,11 @@
 	},
 	
 	{
+		"name":"broscience Writeup",
+		"link": "/writeups/hackthebox/BroScience.html"
+	},
+	
+	{
 		
 		"name":"Tryhackme",
 		"link": "/writeups/tryhackme/"
