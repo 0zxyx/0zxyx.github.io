@@ -25,6 +25,11 @@
 	},
 	
 	{
+		"name":"investigation Writeup",
+		"link": "/writeups/hackthebox/Investigation.html"
+	},
+	
+	{
 		
 		"name":"Tryhackme",
 		"link": "/writeups/tryhackme/"
