@@ -30,6 +30,11 @@
 	},
 	
 	{
+		"name":"interface Writeup",
+		"link": "/writeups/hackthebox/Interface.html"
+	},
+	
+	{
 		
 		"name":"Tryhackme",
 		"link": "/writeups/tryhackme/"
