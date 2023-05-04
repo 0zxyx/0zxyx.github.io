@@ -20,18 +20,23 @@
 	},
 	
 	{
-		"name":"broscience Writeup",
+		"name":"Broscience Writeup",
 		"link": "/writeups/hackthebox/BroScience.html"
 	},
 	
 	{
-		"name":"investigation Writeup",
+		"name":"Investigation Writeup",
 		"link": "/writeups/hackthebox/Investigation.html"
 	},
 	
 	{
-		"name":"interface Writeup",
+		"name":"Interface Writeup",
 		"link": "/writeups/hackthebox/Interface.html"
+	},
+	
+	{
+		"name":"Monitorstwo Writeup",
+		"link": "/writeups/hackthebox/MonitorsTwo.html"
 	},
 	
 	{
