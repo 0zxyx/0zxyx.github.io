@@ -1,0 +1,14 @@
+{
+	"32": {
+		"restart_syscall": 0,
+		"exit": 1,
+		"fork": 2
+	},
+    
+	"64": {
+		"read": 0,
+		"write": 1,
+		"open": 2
+	}
+}
+
