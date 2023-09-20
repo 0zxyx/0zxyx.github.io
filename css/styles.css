@@ -84,7 +84,6 @@ body {
 
 }
 
-            
         
 .nav-link:hover {
         background-position: right center;
@@ -153,6 +152,33 @@ body {
         color: #12dc00;
 }
 
+.syscall-box {
+        position: absolute;
+        display: block;
+        top: 40%;
+        left: 30%;
+        margin: 0 auto;
+        width: 35%;
+        border: 5px #2e2e2e;
+        border-radius: 20px;
+        font-size: 17px;
+        font-weight: 700;
+        background-color: #868683;
+        background-position: 13px 13px; 
+        background-repeat: no-repeat;
+        padding: 12px 20px;
+}
+
+.syscall-result {
+	
+	position: absolute;
+        top: 50%;
+        left: 35%;
+        width: 25%;
+        font-size: 140%;
+        color: #12dc00;
+}
+
 
 .wp-menu {
   width: 42%;
@@ -176,6 +202,22 @@ body {
 .wp-link:hover {
   background-color: #ccc;
 }
+
+.arch {
+  width: 42%;
+  position: absolute;
+  padding-bottom: 70px;
+  left: 30%;
+  top: 30%;
+  font-size: 140%;
+ 
+}
+
+.arch select {
+  font-size: 100%;
+ 
+}
+
 
 
 .post {
@@ -588,6 +630,32 @@ body {
 }
 
 
+.syscall-box {
+        position: absolute;
+        display: block;
+        top: 40%;
+        left: 34%;
+        margin: 0 auto;
+        width: 33%;
+        border: 5px #2e2e2e;
+        border-radius: 20px;
+        font-size: 17px;
+        font-weight: 700;
+        background-color: #868683;
+        background-position: 13px 13px; 
+        background-repeat: no-repeat;
+        padding: 12px 20px;
+}
+
+.syscall-result {
+	
+	position: absolute;
+        top: 50%;
+        left: 35%;
+        width: 25%;
+        font-size: 140%;
+        color: #12dc00;
+}
 
 
 .wp-menu {
@@ -613,6 +681,23 @@ body {
 .wp-link:hover {
   background-color: #ccc;
 }
+
+.arch {
+  width: 42%;
+  position: absolute;
+  padding-bottom: 70px;
+  left: 35%;
+  top: 30%;
+  font-size: 140%;
+ 
+}
+
+.arch select {
+	position: absolute;
+	font-size: 100%;
+ 
+}
+
 
 
 .post {
@@ -1019,6 +1104,32 @@ body {
         color: #12dc00;
 }
 
+.syscall-box {
+        position: absolute;
+        display: block;
+        top: 40%;
+        left: 33%;
+        margin: 0 auto;
+        width: 26%;
+        border: 5px #2e2e2e;
+        border-radius: 20px;
+        font-size: 15px;
+        font-weight: 500;
+        background-color: #868683;
+        background-position: 13px 13px; 
+        background-repeat: no-repeat;
+        padding: 12px 20px;
+}
+
+.syscall-result {
+	
+	position: absolute;
+        top: 50%;
+        left: 35%;
+        width: 25%;
+        font-size: 140%;
+        color: #12dc00;
+}
 
 
 
@@ -1046,6 +1157,20 @@ body {
   background-color: #ccc;
 }
 
+.arch {
+  width: 42%;
+  position: absolute;
+  padding-bottom: 70px;
+  left: 35%;
+  top: 30%;
+  font-size: 100%;
+ 
+}
+
+.arch select {
+  font-size: 100%;
+ 
+}
 
 .post {
   position: absolute;
