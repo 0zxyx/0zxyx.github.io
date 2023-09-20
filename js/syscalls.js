@@ -5,7 +5,7 @@ $(document).ready(function(){
 		var arch = $('.arch option:selected').val();
 		var sanicall = call.replace(/[^a-zA-Z ]/gi, '');
 		var saniarch = arch.replace(/[^0-9 ]/gi, '');
-		if ($.trim(call) != '')
+		if ($.trim(sanicall) != '')
 		$.getJSON('/data/syscalls.json', function(data){
 			var result = data[saniarch][sanicall];
 			$(".syscall-result").text(result);
