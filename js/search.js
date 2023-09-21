@@ -4,7 +4,7 @@ $(document).ready(function(){
                 var nsearch = $('.search-box').val();
 		var sanitize = nsearch.replace(/[^a-zA-Z ]/gi, '');
 		var regex = new RegExp(sanitize, "i");
-		if ($.trim(nsearch) != '')
+		if ($.trim(sanitize) != '')
 		$.getJSON('/data/data.json', function(data){
 			$.each(data, function(key, value){
 				if(value.name.search(regex) != -1)
