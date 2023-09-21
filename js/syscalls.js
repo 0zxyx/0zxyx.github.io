@@ -3,9 +3,10 @@ $(document).ready(function(){
 		$('.syscall-result').html('');
                 var call = $('.syscall-box').val();
 		var arch = $('.arch option:selected').val();
-		var sanicall = call.replace(/[^a-zA-Z ]/gi, '');
-		var sanicall = sanicall.toLowerCase();
+		var sanicall = call.replace(/[^a-zA-Z_ ]/gi, '');
 		var saniarch = arch.replace(/[^0-9 ]/gi, '');
+		var sanicall = sanicall.toLowerCase();
+		console.log(sanicall);
 		if ($.trim(sanicall) != '')
 		$.getJSON('/data/syscalls.json', function(data){
 			var result = data[saniarch][sanicall];
