@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Bug Bounty Search Engine Created For Penetration Testing.">
+                 <meta name="keywords" content="0zxyx, bugbounty, cheatsheet, hackthebox, htb, tryhackme, thm, writeups">
+                 <meta name="author" content="0zxyx">
+                 <link rel="stylesheet" href="/css/bugbounty.css">
+                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+                 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		 <title>0zxyx | Bug Bounty Search Engine</title>
+</head>
+<body>
+    <div class="bbcontainer">
+        <h2>Bug Bounty Search Engine</h2>
+        
+        <input type="text" id="userinput" placeholder="Enter Your Target Domain">
+        
+        <select id="websiteSelect">
+            <option value="Google">Google</option>
+            <option value="Gist">Gist</option>
+            <option value="Github">Github</option>
+            <option value="Shodan">Shodan</option>
+            <option value="FOFA">FOFA</option>
+            <option value="UrlScan">UrlScan</option>
+            <option value="SubDomain">Sub Domain</option>
+            <option value="SourceCode">Source Code</option>
+            <option value="NetworkIntelligence">Network Intelligence</option>
+            <option value="WebSecurity">Web Security</option>
+            <option value="WaybackMachine">WaybackMachine</option>
+            <option value="URL">URLs</option>
+            <option value="CVE">CVE Search</option>
+            <option value="CMSDetect">CMS Detect</option>
+            <option value="Yandex">Yandex</option>
+            <option value="Openbugbounty">Openbugbounty</option>
+            <option value="Reddit">Reddit</option>
+            <option value="Youtube">Youtube</option>
+        </select>
+        
+        <button class="button" onclick="generateLink()">Generate Links</button>
+        
+        <div id="linkContainer"></div>
+    </div>
+
+    <script src="/js/bugbounty.js"></script>
+</body>
+</html>
+
