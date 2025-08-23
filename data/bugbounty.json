@@ -1,0 +1,1236 @@
+{
+	"Google": [
+    {
+        "query": "intitle:traefik+inurl:8080/dashboard targetDomain",
+        "displayname": "traefik inurl:8080/dashboard"
+    },
+    {
+        "query": "inurl:gitlab targetDomain",
+        "displayname": "gitlab targetDomain"
+    },
+    {
+        "query": "inurl:\"/.git \" targetDomain \" -github \"",
+        "displayname": "inurl:/.git -github"
+    },
+    {
+        "query": "inurl:\"/phpinfo.php\" | inurl:\".htaccess\" | inurl:\"/.git\" targetDomain -github",
+        "displayname": "inurl:phpinfo.php .htaccess .git -github"
+    },
+    {
+        "query": "inurl:targetDomain ext:swf",
+        "displayname": "inurl:targetDomain ext:swf"
+    },
+    {
+        "query": "inurl:targetDomain +ext:wp- | inurl: targetDomain ext:wp-content",
+        "displayname": "inurl:targetDomain ext:wp- wp-content"
+    },
+    {
+        "query": "inurl:wp-content | inurl:wp-includes targetDomain",
+        "displayname": "inurl:wp-content wp-includes"
+    },
+    {
+        "query": "site:atlassian.net site:bitbucket.org targetDomain",
+        "displayname": "atlassian.net bitbucket.org"
+    },
+    {
+        "query": "site:digitaloceanspaces.com targetDomain",
+        "displayname": "digitaloceanspaces.com"
+    },
+    {
+        "query": "site:http://ideone.com | site:http://codebeautify.org | site:http://codeshare.io | site:http://codepen.io | site:http://repl.it | site:http://justpaste.it | site:http://pastebin.com | site:http://jsfiddle.net | site:http://trello.com | site:*.atlassian.net | site:bitbucket.org targetDomain",
+        "displayname": "ideone.com codebeautify.org codeshare.io codepen.io repl.it justpaste.it pastebin.com jsfiddle.net trello.com bitbucket.org"
+    },
+    {
+        "query": "site:linkedin.com employees targetDomain",
+        "displayname": "linkedin.com employees"
+    },
+    {
+        "query": "site:pastebin.com targetDomain",
+        "displayname": "pastebin.com"
+    },
+    {
+        "query": "site:s3.amazonaws.com targetDomain",
+        "displayname": "s3.amazonaws.com"
+    },
+    {
+        "query": "site:stackoverflow.com targetDomain",
+        "displayname": "stackoverflow.com"
+    },
+    {
+        "query": "site:*.*.targetDomain",
+        "displayname": "*.*.Target Domain"
+    },
+    {
+        "query": "site:*.targetDomain",
+        "displayname": "*.Target Domain"
+    },
+    {
+        "query": "site:targetDomain",
+        "displayname": "Target Domain"
+    },
+    {
+        "query": "site:targetDomain \"confidential\"",
+        "displayname": "\"confidential\""
+    },
+    {
+        "query": "site:targetDomain ext:action | ext:struts | ext:do",
+        "displayname": "ext:action ext:struts ext:do"
+    },
+    {
+        "query": "site:targetDomain ext:doc | ext:docx | ext:odt | ext:pdf | ext:rtf | ext:sxw | ext:psw | ext:ppt | ext:pptx | ext:pps | ext:csv",
+        "displayname": "ext:doc ext:docx ext:odt ext:pdf ext:rtf ext:sxw ext:psw ext:ppt ext:pptx ext:pps ext:csv"
+    },
+    {
+        "query": "site:targetDomain ext:log",
+        "displayname": "ext:log"
+    },
+    {
+        "query": "site:targetDomain ext:php intitle:phpinfo \"published by the PHP Group\"",
+        "displayname": "ext:php intitle:phpinfo"
+    },
+    {
+        "query": "site:targetDomain ext:sql | ext:dbf | ext:mdb",
+        "displayname": "ext:sql ext:dbf ext:mdb"
+    },
+    {
+        "query": "site:targetDomain ext:xml | ext:conf | ext:cnf | ext:reg | ext:inf | ext:rdp | ext:cfg | ext:txt | ext:ora | ext:ini",
+        "displayname": "ext:xml ext:conf ext:cnf ext:reg ext:inf ext:rdp ext:cfg ext:txt ext:ora ext:ini"
+    },
+    {
+        "query": "site:targetDomain Filetype:bak \"backup\"",
+        "displayname": "Filetype:bak backup"
+    },
+    {
+        "query": "site:targetDomain filetype:config \"apache\"",
+        "displayname": "filetype:config apache"
+    },
+    {
+        "query": "site:targetDomain filetype:docx",
+        "displayname": "filetype:docx"
+    },
+    {
+        "query": "site:targetDomain Filetype:env \"DB_PASSWORD\"",
+        "displayname": "Filetype:env DB_PASSWORD"
+    },
+    {
+        "query": "site:targetDomain filetype:pdf",
+        "displayname": "filetype:pdf"
+    },
+    {
+        "query": "site:targetDomain Filetype:pdf \"Confidential\"",
+        "displayname": "Filetype:pdf Confidential"
+    },
+    {
+        "query": "site:targetDomain filetype:pptx",
+        "displayname": "filetype:pptx"
+    },
+    {
+        "query": "site:targetDomain Filetype:sql \"DUMP\"",
+        "displayname": "Filetype:sql DUMP"
+    },
+    {
+        "query": "site:targetDomain Filetype:txt \"Passwd\"",
+        "displayname": "Filetype:txt Passwd"
+    },
+    {
+        "query": "site:targetDomain filetype:wsdl | filetype:WSDL | ext:svc | inurl:wsdl | Filetype: ?wsdl | inurl:asmx?wsdl | inurl:jws?wsdl | intitle:_vti_bin/sites.asmx?wsdl | inurl:_vti_bin/sites.asmx?wsdl",
+        "displayname": "filetype:wsdl WSDL ext:svc wsdl asmx"
+    },
+    {
+        "query": "site:targetDomain Filetype:xls \"Password\"",
+        "displayname": "Filetype:xls Password"
+    },
+    {
+        "query": "site:targetDomain filetype:xlsx",
+        "displayname": "filetype:xlsx"
+    },
+    {
+        "query": "site:targetDomain intext:\"ArcGIS REST Services Directory\" intitle:\"Folder: /\"",
+        "displayname": "ArcGIS REST Services Directory Folder"
+    },
+    {
+        "query": "site:targetDomain intext:\"Index of\" intext:\"/etc\"",
+        "displayname": "Index of /etc"
+    },
+    {
+        "query": "site:targetDomain intext:\"index of\" inurl:json-rpc",
+        "displayname": "index of json-rpc"
+    },
+    {
+        "query": "site:targetDomain intext:\"index of\" inurl:jwks-rsa",
+        "displayname": "index of jwks-rsa"
+    },
+    {
+        "query": "site:targetDomain intext:pom.xml intitle:\"index of /\"",
+        "displayname": "pom.xml index of"
+    },
+    {
+        "query": "site:targetDomain intext:\"sql syntax near\" | intext:\"syntax error has occurred\" | intext:\"incorrect syntax near\" | intext:\"unexpected end of SQL command\" | intext:\"Warning: mysql_connect()\" | intext:\"Warning: mysql_query()\" | intext:\"Warning: pg_connect()\"",
+        "displayname": "intext:sql syntax near Warning mysql_connect()"
+    },
+    {
+        "query": "site:targetDomain intitle:index.of",
+        "displayname": "intitle:index.of"
+    },
+    {
+        "query": "site:targetDomain intitle:index.of conf.mysql",
+        "displayname": "intitle:index.of conf.mysql"
+    },
+    {
+        "query": "site:targetDomain intitle:index.of conf.php",
+        "displayname": "intitle:index.of conf.php"
+    },
+    {
+        "query": "site:targetDomain intitle:\"index of\" \"docker-compose.yml\"",
+        "displayname": "intitle:index of docker-compose.yml"
+    },
+    {
+        "query": "site:targetDomain intitle:\"index of\" \"download.php?file=\"",
+        "displayname": "intitle:index of download.php?file="
+    },
+    {
+        "query": "site:targetDomain intitle:\"index of\" github-api",
+        "displayname": "intitle:index of github-api"
+    },
+    {
+        "query": "site:targetDomain intitle:\"Index of\" inurl:/backup/ \"admin.zip\"",
+        "displayname": "intitle:index of /backup/ admin.zip"
+    },
+    {
+        "query": "site:targetDomain intitle:\"index of \"main.yml\"",
+        "displayname": "intitle:index of main.yml"
+    },
+    {
+        "query": "site:targetDomain intitle:\"index of\" \"users.yml\" | \"admin.yml\" | \"config.yml\"",
+        "displayname": "intitle:index of users.yml admin.yml config.yml"
+    },
+    {
+        "query": "site:targetDomain intitle:\"Sharing API Info\"",
+        "displayname": "intitle:Sharing API Info"
+    },
+    {
+        "query": "site:targetDomain inurl:/admin.aspx",
+        "displayname": "inurl:admin.aspx"
+    },
+    {
+        "query": "site:targetDomain inurl:\"config.php\"",
+        "displayname": "inurl:config.php"
+    },
+    {
+        "query": "site:targetDomain inurl:d ()",
+        "displayname": "inurl:d ()"
+    },
+    {
+        "query": "site:targetDomain inurl:d filetype:docx",
+        "displayname": "inurl:d filetype:docx"
+    },
+    {
+        "query": "site:targetDomain inurl:/docs/'",
+        "displayname": "inurl:/docs/"
+    },
+    {
+        "query": "site:targetDomain inurl:\"file=\" inurl:\"index.php\"",
+        "displayname": "inurl:file= index.php"
+    },
+    {
+        "query": "site:targetDomain inurl:/files/",
+        "displayname": "inurl:/files/"
+    },
+    {
+        "query": "site:targetDomain inurl:folder",
+        "displayname": "inurl:folder"
+    },
+    {
+        "query": "site:targetDomain inurl:\"/geoserver/ows?service=wfs\"",
+        "displayname": "inurl:/geoserver/ows?service=wfs"
+    },
+    {
+        "query": "site:targetDomain inurl:/.git",
+        "displayname": "inurl:/.git"
+    },
+    {
+        "query": "site:targetDomain inurl:\"index of /\" \"Parent Directory\"",
+        "displayname": "inurl:index of / Parent Directory"
+    },
+    {
+        "query": "site:targetDomain inurl: /libraries/joomla/database/",
+        "displayname": "inurl:/libraries/joomla/database/"
+    },
+    {
+        "query": "site:targetDomain inurl:login",
+        "displayname": "inurl:login"
+    },
+    {
+        "query": "site:targetDomain inurl:login | inurl:signin | intitle:Login | intitle: signin | inurl:auth",
+        "displayname": "inurl:login signin intitle:Login intitle:signin"
+    },
+    {
+        "query": "site:targetDomain inurl:open",
+        "displayname": "inurl:open"
+    },
+    {
+        "query": "site:targetDomain inurl:\"/phpinfo.php\" | inurl:\".htaccess\"",
+        "displayname": "inurl:phpinfo.php .htaccess"
+    },
+    {
+        "query": "site:targetDomain inurl:\"php?sql=select\" ext:php",
+        "displayname": "inurl:php?sql=select ext:php"
+    },
+    {
+        "query": "site:targetDomain inurl:readme | inurl:license | inurl:install | inurl:setup | inurl:config",
+        "displayname": "inurl:readme license install setup config"
+    },
+    {
+        "query": "site:targetDomain inurl:redir | inurl:url | inurl:redirect | inurl:return | inurl:src=http | inurl:r=http",
+        "displayname": "inurl:redir url redirect return src=http"
+    },
+    {
+        "query": "site:targetDomain inurl:shell | inurl:backdoor | inurl:wso | inurl:cmd | shadow | passwd | boot.ini | inurl:backdoor",
+        "displayname": "inurl:shell backdoor wso cmd shadow passwd boot.ini"
+    },
+    {
+        "query": "site:targetDomain inurl:uploadimage.php",
+        "displayname": "inurl:uploadimage.php"
+    },
+    {
+        "query": "site:targetDomain inurl:user intitle:\"Drupal\" intext:\"Log in\" -\"powered by\"",
+        "displayname": "inurl:user intitle:Drupal Log in -powered by"
+    },
+    {
+        "query": "site:targetDomain inurl:\"wp-content\" intitle:\"index.of\" intext:backup",
+        "displayname": "inurl:wp-content index.of backup"
+    },
+    {
+        "query": "site:targetDomain inurl:\"wp-content\" intitle:\"index.of\" intext:wp-config.php",
+        "displayname": "inurl:wp-content index.of wp-config.php"
+    },
+    {
+        "query": "site:targetDomain inurl:wp-content | inurl:wp-includes",
+        "displayname": "inurl:wp-content wp-includes"
+    },
+    {
+        "query": "site:targetDomain inurl:*/wp-content/plugins/contact-form-7/",
+        "displayname": "inurl:wp-content/plugins/contact-form-7"
+    },
+    {
+        "query": "site:targetDomain inurl:wp-content/uploads/wcpa_uploads",
+        "displayname": "inurl:wp-content/uploads/wcpa_uploads"
+    },
+    {
+        "query": "site:targetDomain inurl:wp-content/uploads",
+        "displayname": "inurl:wp-content/uploads"
+    },
+    {
+        "query": "inurl:*.php?id= targetDomain",
+        "displayname": "inurl:*.php?id= Sql Injection"
+    },
+    {
+      "query": "site:targetDomain inurl:script inurl:xss inurl:%3C site:redacted inurl:UNION inurl:select inurl:%3C",
+      "displayname": "Script/XSS or SQL Indicators"
+    },
+    {
+      "query": "site:targetDomain (ext:pdf OR ext:doc OR ext:docx OR ext:zip OR ext:bak OR ext:txt OR ext:ppt OR ext:pptx OR ext:xls OR ext:xlsx)",
+      "displayname": "Publicly Accessible Documents"
+    },
+    {
+      "query": "site:targetDomain inurl:/api/user  {\"Result\":[{\"Text\":\"Home\"",
+      "displayname": "User API Endpoint (JSON Result)"
+    },
+    {
+      "query": "site:targetDomain inurl:/api/user {\"Result\":[{\"Text\":\"Home\" -stackoverflow -docs -documentation",
+      "displayname": "User API Endpoint (Filtered Docs/StackOverflow)"
+    },
+    {
+      "query": "site:targetDomain inurl:/api/user  {\"Result\":[{\"Text\":\"Home\" -site:stackoverflow.com -inurl:community",
+      "displayname": "User API Endpoint (Filtered Community/StackOverflow)"
+    },
+    {
+      "query": "site:targetDomain inurl:search.php inurl:sqlQuery inurl:&",
+      "displayname": "Search Page with SQL Query Parameter"
+    },
+    {
+      "query": "site:targetDomain site:jira.*.* inurl:& inurl:user_role",
+      "displayname": "Jira User Role References"
+    },
+    {
+      "query": "site:targetDomain inurl:/d2l/eP inurl:&",
+      "displayname": "D2L Path Exposure"
+    },
+    {
+      "query": "site:targetDomain ext:jnz inurl:portlet inurl:&",
+      "displayname": "Portlet JNZ Files"
+    },
+    {
+      "query": "site:targetDomain ext:pl inurl:&",
+      "displayname": "Perl Script Endpoints"
+    },
+    {
+      "query": "site:targetDomain inurl:cgi inurl:&",
+      "displayname": "CGI Script Endpoints"
+    },
+    {
+      "query": "site:targetDomain inurl:cgi inurl:koha inurl:&",
+      "displayname": "Koha CGI Endpoints"
+    },
+    {
+      "query": "site:targetDomain inurl:cgi inurl:opac inurl:&",
+      "displayname": "OPAC CGI Endpoints"
+    },
+    {
+      "query": "site:*.targetDomain inurl:getdata.aspx",
+      "displayname": "GetData ASPX Endpoints"
+    },
+    {
+      "query": "site:*-*.targetDomain",
+      "displayname": "Wildcard Subdomains (Dash)"
+    },
+    {
+      "query": "site:*.*-*.targetDomain",
+      "displayname": "Wildcard Multi-level Subdomains"
+    },
+    {
+      "query": "site:*.*-*.*-*.targetDomain",
+      "displayname": "Complex Subdomain Patterns"
+    },
+    {
+      "query": "site:*-*-*.targetDomain",
+      "displayname": "Triple Dash Subdomains"
+    },
+    {
+      "query": "site:*-*-*.*.targetDomain",
+      "displayname": "Nested Triple Dash Subdomains"
+    },
+    {
+      "query": "site:targetDomain inurl:targetDomain:8080",
+      "displayname": "Exposed Service Port 8080"
+    },
+    {
+      "query": "site:targetDomain inurl:targetDomain:8081",
+      "displayname": "Exposed Service Port 8081"
+    },
+    {
+      "query": "site:targetDomain inurl:targetDomain:8082",
+      "displayname": "Exposed Service Port 8082"
+    },
+    {
+      "query": "site:targetDomain inurl:targetDomain:8083",
+      "displayname": "Exposed Service Port 8083"
+    },
+    {
+      "query": "site:targetDomain inurl:targetDomain:8084",
+      "displayname": "Exposed Service Port 8084"
+    },
+    {
+      "query": "site:targetDomain inurl:targetDomain:8085",
+      "displayname": "Exposed Service Port 8085"
+    },
+    {
+      "query": "site:targetDomain inurl:targetDomain:8086",
+      "displayname": "Exposed Service Port 8086"
+    },
+    {
+      "query": "site:targetDomain inurl:targetDomain:8087",
+      "displayname": "Exposed Service Port 8087"
+    },
+    {
+      "query": "site:targetDomain inurl:targetDomain:8088",
+      "displayname": "Exposed Service Port 8088"
+    },
+    {
+      "query": "site:*.targetDomain inurl:targetDomain inurl:&",
+      "displayname": "Subdomain Query Params with &"
+    },
+    {
+      "query": "site:*.targetDomain inurl:targetDomain inurl:=",
+      "displayname": "Subdomain Query Params with ="
+    },
+    {
+      "query": "site:*.targetDomain inurl:targetDomain inurl:?",
+      "displayname": "Subdomain Query Params with ?"
+    },
+    {
+      "query": "site:*.targetDomain inurl:targetDomain inurl:& inurl:= inurl:?",
+      "displayname": "Complex Subdomain Query Params"
+    },
+    {
+      "query": "site:targetDomain inurl:& inurl:= inurl:?",
+      "displayname": "General Query Parameters"
+    },
+    {
+      "query": "site:targetDomain inurl:api inurl:&",
+      "displayname": "API Endpoints with &"
+    },
+    {
+      "query": "site:targetDomain inurl:api inurl:=",
+      "displayname": "API Endpoints with ="
+    },
+    {
+      "query": "site:targetDomain inurl:api inurl:?",
+      "displayname": "API Endpoints with ?"
+    },
+    {
+      "query": "site:targetDomain inurl:v1 inurl:&",
+      "displayname": "API v1 Endpoints with &"
+    },
+    {
+      "query": "site:targetDomain inurl:v1 inurl:=",
+      "displayname": "API v1 Endpoints with ="
+    },
+    {
+      "query": "site:targetDomain inurl:v1 inurl:?",
+      "displayname": "API v1 Endpoints with ?"
+    },
+    {
+      "query": "site:targetDomain inurl:api inurl:& inurl:= inurl:?",
+      "displayname": "Complex API Query Parameters"
+    },
+    {
+      "query": "inurl:\"/.git\" targetDomain -github",
+      "displayname": "Exposed Git Repositories"
+    },
+    {
+      "query": "site:targetDomain ext:bkf | ext:bkp | ext:bak | ext:old | ext:backup",
+      "displayname": "Backup Files"
+    },
+    {
+      "query": "site:targetDomain ext:doc | ext:docx | ext:pdf | ext:xls | ext:xlsx | ext:csv | ext:sql | ext:txt | ext:conf | ext:key | ext:crt | ext:pfx | ext:py | ext:html | ext:sh",
+      "displayname": "Sensitive File Extensions"
+    },
+    {
+      "query": "inurl:targetDomain \"not for distribution\" | confidential | \"employee only\" | proprietary | \"top secret\" | internal | private filetype:xls OR filetype:csv OR filetype:pdf",
+      "displayname": "Confidential Document References"
+    },
+    {
+      "query": "site:targetDomain ext:xml | ext:conf | ext:ini | ext:cfg | ext:env | ext:rdp | ext:reg",
+      "displayname": "Configuration Files"
+    },
+    {
+      "query": "site:targetDomain intitle:\"index of\" | ext:log | ext:swf | inurl:shell | inurl:backdoor | inurl:wso | inurl:cmd | shadow | passwd | boot.ini",
+      "displayname": "Open Directory / Logs / Sensitive Keywords"
+    },
+    {
+      "query": "site:targetDomain \"@gmail.com\" (intext:\"users\" | intext:\"signup\" | intext:\"email\")",
+      "displayname": "Exposed Email References"
+    },
+    {
+      "query": "site:*.*.targetDomain intext:\"login\" | intitle:\"login\" | inurl:\"login\" | intext:\"username\" | intitle:\"username\" | inurl:\"username\" | intext:\"password\" | intitle:\"password\" | inurl:\"password\"",
+      "displayname": "Login Pages / Credential References"
+    },
+    {
+      "query": "site:\"targetDomain\" inurl:apidocs | inurl:api-docs | inurl:swagger | inurl:api-explorer",
+      "displayname": "API Documentation Pages"
+    },
+    {
+      "query": "site:targetDomain inurl:api | site:*/rest | site:*/v1 | site:*/v2 | site:*/v3",
+      "displayname": "General API Endpoints"
+    },
+    {
+      "query": "\"targetDomain\" site:http://ideone.com | site:http://codebeautify.org | site:http://codeshare.io | site:http://codepen.io | site:http://repl.it | site:http://justpaste.it | site:http://pastebin.com | site:http://jsfiddle.net | site:http://trello.com | site:*.atlassian.net | site:bitbucket.org",
+      "displayname": "Mentions on Paste/Code Sharing Sites"
+    },
+    {
+      "query": "site:*.targetDomain intext:\"internal use only\" filetype:pdf",
+      "displayname": "PDFs Marked Internal Use Only"
+    },
+    {
+      "query": "site:*.targetDomain intext:\"not for public release\" filetype:pdf",
+      "displayname": "PDFs Marked Not for Public Release"
+    },
+    {
+      "query": "site:*.targetDomain intext:\"classified\" filetype:pdf",
+      "displayname": "Classified PDFs"
+    },
+    {
+      "query": "site:targetDomain intext:\"confidential\"",
+      "displayname": "Confidential References"
+    },
+    {
+      "query": "site:targetDomain intext:\"internal use only\"",
+      "displayname": "Internal Use Only References"
+    },
+    {
+      "query": "site:targetDomain intext:\"not for public release\"",
+      "displayname": "Not for Public Release References"
+    },
+    {
+      "query": "site:targetDomain intext:\"proprietary\"",
+      "displayname": "Proprietary References"
+    },
+    {
+      "query": "site:targetDomain intext:\"restricted\"",
+      "displayname": "Restricted References"
+    },
+    {
+      "query": "site:targetDomain intext:\"do not distribute\"",
+      "displayname": "Do Not Distribute References"
+    },
+    {
+      "query": "site:targetDomain intext:\"sensitive\"",
+      "displayname": "Sensitive References"
+    },
+    {
+      "query": "site:targetDomain intext:\"for official use only\"",
+      "displayname": "For Official Use Only References"
+    },
+    {
+      "query": "site:targetDomain intext:\"classified\"",
+      "displayname": "Classified References"
+    },
+    {
+      "query": "site:targetDomain intext:\"private and confidential\"",
+      "displayname": "Private and Confidential References"
+    },
+    {
+      "query": "site:targetDomain intext:\"company confidential\"",
+      "displayname": "Company Confidential References"
+    },
+    {
+      "query": "site:targetDomain intext:\"unauthorized access prohibited\"",
+      "displayname": "Unauthorized Access Prohibited References"
+    },
+    {
+      "query": "site:targetDomain intext:\"draft - not for circulation\"",
+      "displayname": "Draft - Not for Circulation References"
+    },
+    {
+      "query": "site:targetDomain intext:\"employee handbook\"",
+      "displayname": "Employee Handbook References"
+    },
+    {
+      "query": "site:targetDomain intext:\"financial report\"",
+      "displayname": "Financial Report References"
+    },
+    {
+      "query": "site:targetDomain intext:\"strategy document\"",
+      "displayname": "Strategy Document References"
+    },
+    {
+      "query": "site:targetDomain intext:\"internal memo\"",
+      "displayname": "Internal Memo References"
+    },
+    {
+      "query": "site:targetDomain intext:\"sensitive but classified\"",
+      "displayname": "Sensitive but Classified References"
+    },
+    {
+      "query": "site:targetDomain intitle:\"error in your SQL syntax\" inurl:.php?id=",
+      "displayname": "SQL Error in PHP Pages"
+    },
+    {
+      "query": "site:targetDomain intext:\"mysql_fetch_assoc\"",
+      "displayname": "MySQL Fetch Function References"
+    },
+    {
+      "query": "site:targetDomain intext:\"at line\" \"you have an error in your SQL syntax\"",
+      "displayname": "SQL Syntax Error References"
+    },
+    {
+      "query": "site:targetDomain intitle: \"index of\" (.zip | .tar.gz | backup |log)",
+      "displayname": ".zip .tar.gz backup log"
+    }
+
+],
+
+  "Github": [
+    {
+      "query": "targetDomain&type=users",
+      "displayname": "Github Users"
+    },
+    {
+      "query": ".*targetDomain&type=repositories",
+      "displayname": "Github Repositories"
+    }
+  ],
+  "Gist": [
+    {
+      "query": "site:*.targetDomain",
+      "displayname": "Wildcard Domain Search"
+    },
+    {
+      "query": "SECRET OR secret \"targetDomain\"",
+      "displayname": "Secret Search"
+    },
+    {
+      "query": "pass OR password OR passwd \"targetDomain\"",
+      "displayname": "Password Search"
+    },
+    {
+      "query": "credentials OR consumer_key \"targetDomain\"",
+      "displayname": "Credentials Search"
+    },
+    {
+      "query": "\"targetDomain\" login",
+      "displayname": "Login Search"
+    },
+    {
+      "query": "\"targetDomain\" token",
+      "displayname": "Token Search"
+    },
+    {
+      "query": "\"targetDomain\" ftp",
+      "displayname": "FTP Search"
+    },
+    {
+      "query": "\"targetDomain\" aws",
+      "displayname": "AWS Search"
+    },
+    {
+      "query": "\"targetDomain\" config",
+      "displayname": "Config Search"
+    },
+    {
+      "query": "\"targetDomain\" ldap",
+      "displayname": "LDAP Search"
+    },
+    {
+      "query": "\"targetDomain\" jenkins",
+      "displayname": "Jenkins Search"
+    },
+    {
+      "query": "targetDomain \"-----BEGIN OPENSSH PRIVATE KEY-----\"",
+      "displayname": "SSH Private Key Search"
+    },
+    {
+      "query": "targetDomain \"-----BEGIN CERTIFICATE-----\"",
+      "displayname": "Certificate Search"
+    },
+    {
+      "query": "targetDomain \"-----BEGIN PRIVATE KEY-----\"",
+      "displayname": "Private Key Search"
+    },
+    {
+      "query": "\"DB_PASSWORD\" OR \"DATABASE_URL\" OR \"DATABASE_PASSWORD\" OR \"DBpasswd\" targetDomain",
+      "displayname": "DB Password Search"
+    },
+    {
+      "query": "\"targetDomain\" send_keys | Password related keyword | moderate",
+      "displayname": "Password Send Keys Search"
+    },
+    {
+      "query": "\"targetDomain\" QSqlDatabase | Qt sql framework config | moderate",
+      "displayname": "Qt SQL Framework Search"
+    },
+    {
+      "query": "\"targetDomain\" setPassword   | Qt sql password db config | moderate",
+      "displayname": "Qt SQL Password Search"
+    },
+    {
+      "query": "\"targetDomain\" send,keys OR key |Password related keyword | moderate",
+      "displayname": "Password Send Keys Search"
+    },
+    {
+      "query": "\"targetDomain\" apiKey OR api_token | firebase config | moderate",
+      "displayname": "Firebase API Key Search"
+    },
+    {
+      "query": "\"targetDomain\" databaseURL | firebase config | moderate",
+      "displayname": "Firebase Database URL Search"
+    },
+    {
+      "query": "\"targetDomain\" storageBucket | firebase config | moderate",
+      "displayname": "Firebase Storage Bucket Search"
+    },
+    {
+      "query": "\"targetDomain\" security_credentials  | LDAP (active directories)",
+      "displayname": "LDAP Security Credentials Search"
+    },
+    {
+      "query": "\"targetDomain\" connectionstring   | Database Cred",
+      "displayname": "Database Connection String Search"
+    },
+    {
+      "query": "\"targetDomain\" JDBC | Database Cred",
+      "displayname": "JDBC Database Search"
+    },
+    {
+      "query": "\"targetDomain\" ssh2_auth_password | unauthorized access to servers",
+      "displayname": "SSH2 Authentication Password Search"
+    },
+    {
+      "query": "\"targetDomain\" send_keys OR send,keys",
+      "displayname": "Password Send Keys Search"
+    },
+    {
+      "query": "\"API_KEY\" OR \"api_key\" OR \"API_SECRET\" OR \"api_secret\" targetDomain",
+      "displayname": "API Key Search"
+    },
+    {
+      "query": "\"DB_PASSWORD\" OR \"DATABASE_URL\" OR \"DATABASE_Password\" targetDomain",
+      "displayname": "Database Password Search"
+    },
+    {
+      "query": "\"AWS_ACCESS_KEY_ID\" OR \"aws_access_key_id\"  targetDomain",
+      "displayname": "AWS Access Key Search"
+    },
+    {
+      "query": "filename:.env targetDomain",
+      "displayname": ".env File Search"
+    },
+    {
+      "query": "'password' OR 'secret' OR 'credential' targetDomain",
+      "displayname": "Password Search"
+    },
+    {
+      "query": "\"confidential\" OR \"sensitive\" targetDomain",
+      "displayname": "Sensitive Data Search"
+    },
+    {
+      "query": "\"error\" OR \"exception\" targetDomain",
+      "displayname": "Error Search"
+    },
+    {
+      "query": "'password' OR 'secret' OR 'credential' targetDomain in:file branch.*",
+      "displayname": "File Branch Password Search"
+    },
+    {
+      "query": "targetDomain extension:json OR extension.yml OR extension.xml OR extension:config",
+      "displayname": "File Extension Search"
+    },
+    {
+      "query": "\"BEGIN CERTIFICATE\" targetDomain",
+      "displayname": "Certificate Begin Search"
+    },
+    {
+      "query": "\"BEGIN PRIVATE KEY\" targetDomain",
+      "displayname": "Private Key Begin Search"
+    },
+    {
+      "query": "\"BEGIN OPENSSH PRIVATE KEY\" targetDomain",
+      "displayname": "OpenSSH Private Key Begin Search"
+    },
+    {
+      "query": "\"token\" OR \"access_token\" targetDomain",
+      "displayname": "Token or Access Token Search"
+    },
+    {
+      "query": "filename:config targetDomain",
+      "displayname": "Config File Search"
+    },
+    {
+      "query": "filename:settings targetDomain",
+      "displayname": "Settings File Search"
+    },
+    {
+      "query": "\"fatal\" OR \"exception\" OR \"error\" targetDomain",
+      "displayname": "Fatal Error Search"
+    },
+    {
+      "query": "\"webhook\" targetDomain",
+      "displayname": "Webhook Search"
+    },
+    {
+      "query": "targetDomain language:python",
+      "displayname": "Python Search"
+    },
+    {
+      "query": "targetDomain language:javascript",
+      "displayname": "JavaScript Search"
+    },
+    {
+      "query": "secrets. targetDomain",
+      "displayname": "Secrets Search"
+    },
+    {
+      "query": "\"ssh2_auth_password\" OR \"passkey-passkeys\" targetDomain",
+      "displayname": "SSH2 Auth Password Search"
+    },
+    {
+      "query": "path:**/.npmrc _auth targetDomain NOT example.com",
+      "displayname": ".npmrc Auth Search"
+    },
+    {
+      "query": "path:*/*config.sh password targetDomain NOT example.com",
+      "displayname": "Config.sh Password Search"
+    },
+    {
+      "query": "path:*.pem private key targetDomain",
+      "displayname": ".pem Private Key Search"
+    },
+    {
+      "query": "path:src/*.js targetDomain",
+      "displayname": "JS Source Path Search"
+    },
+    {
+      "query": "\"targetDomain\"language:Python OR bash",
+      "displayname": "Python or Bash Search"
+    },
+    {
+      "query": "path:*.env ( NOT homestead NOT root NOT example NOT gmail NOT sample NOT localhost NOT marutise) password outlook.com targetDomain",
+      "displayname": ".env Password Outlook Search"
+    },
+    {
+      "query": "(path:.xml OR path:*.json OR path:*.properties OR path:*.txt OR path:*.log OR path:*.config OR path:*.cfg OR path:*.env OR path:*.envrc OR path:*.prod OR path*.secret OR path:*.private OR path:*.kry) AND (access_key OR secret_key OR access_token OR api_key OR api_key OR apikey OR api_secret OR auth_token OR authsecret OR \"sk-\") AND (openai OR gpt) \"targetDomain\" NOT (homestead NOT root NOT example NOT gmail NOT sample NOT localhost NOT marutise)",
+      "displayname": "Advanced Search for Keys"
+    },
+    {
+      "query": "\"targetDomain\"language:Python OR bash",
+      "displayname": "Python or Bash Search"
+    },
+    {
+    "query": "\"targetDomain\" path:key_",
+    "displayname": "Key Path Search"
+    },
+    {
+    "query": "\"targetDomain\" forget password",
+    "displayname": "Forgotten Password Search"
+  },
+  {
+    "query": "\"targetDomain\" language:java \"passwd\"",
+    "displayname": "Java Password Search"
+  },
+  {
+    "query": "\"targetDomain\" OR \"targetDomain\" OR \"targetDomain\" password",
+    "displayname": "Multiple Password Hits"
+  },
+  {
+    "query": "\"targetDomain\" path:credentials",
+    "displayname": "Credentials Path Search"
+  },
+  {
+    "query": "\"targetDomain\" language:text \"Internal\" \"Private use only\"",
+    "displayname": "Internal Private Text"
+  },
+  {
+    "query": "\"targetDomain\" logs",
+    "displayname": "Logs Search"
+  },
+  {
+    "query": "\"targetDomain\" secret_key",
+    "displayname": "Secret Key Search"
+  },
+  {
+    "query": "\"targetDomain\" private",
+    "displayname": "Private Data Search"
+  },
+  {
+    "query": "\"targetDomain\" internal",
+    "displayname": "Internal Data Search"
+  }
+  ],
+  
+  "Shodan": [
+	  {
+		  "query": "Ssl.cert.subject.CN:\"targetDomain\" 200",
+		  "displayname": "SSL Certificate Common Name"
+	  },
+	  {
+		  "query": "hostname:\"targetDomain\" port:22",
+		  "displayname": "SSH Port Open"
+	  },
+	  {
+		  "query": "hostname:\"targetDomain\" http.title:\"index of /\"",
+		  "displayname": "Index Page Listing"
+  },
+  {
+    "query": "hostname:\"targetDomain\" http.html:\"password\"",
+    "displayname": "Password Keyword in HTML"
+  },
+  {
+    "query": "hostname:\"targetDomain\" http.html:\"admin\"",
+    "displayname": "Admin Keyword in HTML"
+  },
+  {
+    "query": "hostname:\"targetDomain\" http.html:\"login\"",
+    "displayname": "Login Keyword in HTML"
+  },
+  {
+    "query": "hostname:\"targetDomain\" http.html:\"user\"",
+    "displayname": "User Keyword in HTML"
+  },
+  {
+    "query": "hostname:\"targetDomain\" http.html:\"email\"",
+    "displayname": "Email Keyword in HTML"
+  },
+  {
+    "query": "hostname:\"targetDomain\" http.html:\"ssn\"",
+    "displayname": "SSN Keyword in HTML"
+  },
+  {
+    "query": "hostname:\"targetDomain\" http.html:\"address\"",
+    "displayname": "Address Keyword in HTML"
+  },
+  {
+    "query": "hostname:\"targetDomain\" http.html:\"phone\"",
+    "displayname": "Phone Keyword in HTML"
+  },
+  {
+    "query": "hostname:\"targetDomain\" http.html:\"invoice\"",
+    "displayname": "Invoice Keyword in HTML"
+  },
+  {
+    "query": "hostname:\"targetDomain\" title:\"Grafana\"",
+    "displayname": "Grafana Dashboard Detected"
+  }
+  ],
+  
+  "FOFA": [
+	  {
+		  "query": "domain=\"targetDomain\" body=\"r2.cloudflarestorage.com\"",
+		  "displayname": "Cloudflare R2 Reference"
+  },
+  {
+    "query": "domain=\"targetDomain\" && body=\"admin\"",
+    "displayname": "Admin Keyword in Body"
+  },
+  {
+    "query": "domain=\"targetDomain\" && body=\"internal\"",
+    "displayname": "Internal Keyword in Body"
+  },
+  {
+    "query": "domain=\"targetDomain\" && body=\"private\"",
+    "displayname": "Private Keyword in Body"
+  },
+  {
+    "query": "domain=\"targetDomain\" && body=\"secret\"",
+    "displayname": "Secret Keyword in Body"
+  },
+  {
+    "query": "domain=\"targetDomain\" && body=\"companyname\"",
+    "displayname": "Company Name in Body"
+  },
+  {
+    "query": "domain=\"targetDomain\" && \"Grafana\"",
+    "displayname": "Grafana Mention in Body"
+  },
+  {
+    "query": "domain=\"targetDomain\" && body=\"fetch(\"",
+    "displayname": "Fetch API in Body"
+  },
+  {
+    "query": "domain=\"targetDomain\" && body=\"fetch(\" && body=\"/api/v1\"",
+    "displayname": "API v1 Fetch"
+  },
+  {
+    "query": "domain=\"targetDomain\" && body=\"fetch(\" && body=\"/api/v2\"",
+    "displayname": "API v2 Fetch"
+  },
+  {
+    "query": "domain=\"targetDomain\" && body=\"fetch(\" && body=\"/admin\"",
+    "displayname": "Fetch Admin Path"
+  },
+  {
+    "query": "domain=\"targetDomain\" && body=\"Whitelabel Error Page\" && body=\"This application has no configured error view\"",
+    "displayname": "Spring Boot Error Page"
+  },
+  {
+    "query": "domain=\"targetDomain\" && body=\"phpinfo\" && body=\"Server API\" && body=\"display_startup_errors\"",
+    "displayname": "PHP Info Leak"
+  },
+  {
+    "query": "domain=\"targetDomain\" && body=\"postMessage\"",
+    "displayname": "PostMessage Mention"
+  },
+  {
+    "query": "domain=\"targetDomain\" && body=\"postMessage(\"",
+    "displayname": "PostMessage Function"
+  },
+  {
+    "query": "domain=\"targetDomain\" && body=\"eval(\"",
+    "displayname": "Eval Function Usage"
+  },
+  {
+    "query": "domain=\"targetDomain\" && body=\"http.post\"",
+    "displayname": "HTTP POST Call"
+  },
+  {
+    "query": "domain=\"targetDomain\" && body=\"http.delete\"",
+    "displayname": "HTTP DELETE Call"
+  },
+  {
+    "query": "domain=\"targetDomain\" && body=\"http.put\"",
+    "displayname": "HTTP PUT Call"
+  },
+  {
+    "query": "domain=\"targetDomain\" && body=\"http.patch\"",
+    "displayname": "HTTP PATCH Call"
+  },
+  {
+    "query": "domain=\"targetDomain\" && body=\"webhookURL\"",
+    "displayname": "Webhook URL Mention"
+  },
+  {
+    "query": "domain=\"targetDomain\" && body=\"webhook\"",
+    "displayname": "Webhook Keyword"
+  },
+  {
+    "query": "domain=\"targetDomain\" && body=\"webhook/\"",
+    "displayname": "Webhook Path"
+  },
+  {
+    "query": "domain=\"targetDomain\" && body=\"/webhook\"",
+    "displayname": "Webhook Endpoint"
+  },
+  {
+    "query": "domain=\"targetDomain\" && body=\"webhookURL\" && body=\"/webhook/\"",
+    "displayname": "Webhook URL Full Path"
+  },
+  {
+    "query": "domain=\"targetDomain\" && body=\"webhookURL\" && body=\"/webhook/\"  && body=\"token\"",
+    "displayname": "Webhook Token Leak"
+  },
+  {
+    "query": "domain=\"targetDomain\" && body=\"webhookURL\" && body=\"/webhook/\"  && body=\"secret\"",
+    "displayname": "Webhook Secret Leak"
+  },
+  {
+    "query": "domain=\"targetDomain\" && body=\"webhookURL\" && body=\"/webhook/\"  && body=\"targetDomain\"",
+    "displayname": "Webhook with Placeholder Domain"
+  },
+  {
+    "query": "domain=\"targetDomain\" && body=\"webhookURL\" && body=\"/webhook/\"  && body=\"any_other_keyword_that_matches_target_uniquely\"",
+    "displayname": "Webhook with Unique Identifier"
+  }
+  ],
+  "UrlScan": [
+	  {
+		  "query": "page.url:targetDomain NOT page.url:state AND page.url:redirect_uri",
+		  "displayname": "Redirect URI Without State"
+	  },
+  {
+    "query": "page.url:targetDomain NOT page.url:state AND page.url:auth",
+    "displayname": "Auth Endpoint Without State"
+  },
+  {
+    "query": "page.url:targetDomain NOT page.url:state AND page.url:oauth",
+    "displayname": "OAuth Endpoint Without State"
+  },
+  {
+    "query": "page.url:targetDomain NOT page.url:state AND page.url:oauth2",
+    "displayname": "OAuth2 Endpoint Without State"
+  },
+  {
+    "query": "page.url:targetDomain NOT page.url:state AND page.url:authorize",
+    "displayname": "Authorize Endpoint Without State"
+  },
+  {
+    "query": "page.url:targetDomain NOT page.url:state AND page.url:client_id",
+    "displayname": "Client ID Without State"
+  },
+  {
+    "query": "page.url:targetDomain NOT page.url:state AND page.url:response_type",
+    "displayname": "Response Type Without State"
+  }
+  ],
+  
+  "SubDomain": [
+    {
+      "query": "https://crt.sh/?q=targetDomain",
+      "displayname": "crt.sh Sub Domain Search"
+    },
+    {
+      "query": "https://otx.alienvault.com/api/v1/indicators/hostname/targetDomain/passive_dns",
+      "displayname": "alienvault Sub Domain Search"
+    },
+    {
+      "query": "https://web.archive.org/cdx/search/cdx?url=targetDomain/*&matchType=domain&collapse=digest&output=json&fl=original&limit=1000",
+      "displayname": "WayBackMachine Domain Search"
+    }
+  ],
+  "SourceCode": [
+    {
+      "query": "https://grep.app/search?q=targetDomain",
+      "displayname": "Grep.app Search"
+    },
+    {
+      "query": "https://publicwww.com/websites/targetDomain/",
+      "displayname": "Publicwww.com Search"
+    }
+  ],
+  "NetworkIntelligence": [
+    {
+      "query": "https://search.censys.io/search?resource=hosts&sort=RELEVANCE&per_page=25&virtual_hosts=INCLUDE&q=targetDomain",
+      "displayname": "Censys Search"
+    },
+    {
+      "query": "https://www.shodan.io/domain/targetDomain",
+      "displayname": "Shodan Search"
+    },
+    {
+      "query": "https://hunter.how/list?searchValue=domain=\"targetDomain\"",
+      "displayname": "Hunter Search"
+    }
+  ],
+  "WebSecurity": [
+    {
+      "query": "https://securityheaders.com/?q=targetDomain&followRedirects=on",
+      "displayname": "Security Headers Search"
+    }
+  ],
+  "WaybackMachine": [
+    {
+      "query": "https://web.archive.org/web/*/targetDomain",
+      "displayname": "WaybackMachine Screenshots"
+    },
+    {
+      "query": "https://web.archive.org/web/*/targetDomain/*",
+      "displayname": "WaybackMachine Urls Web Version"
+    },
+    {
+      "query": "https://web.archive.org/cdx/search/cdx?url=targetDomain/*&output=json&collapse=urlkey&limit=10000",
+      "displayname": "WaybackMachine Urls Json Version"
+    }
+  ],
+  "URL": [
+    {
+      "query": "https://urlscan.io/api/v1/search/?q=domain:targetDomain&size=10000",
+      "displayname": "Urlscan Urls"
+    },
+    {
+      "query": "https://web.archive.org/web/*/targetDomain/*",
+      "displayname": "WaybackMachine Urls Web Version"
+    },
+    {
+      "query": "https://web.archive.org/cdx/search/cdx?url=targetDomain/*&output=json&collapse=urlkey&limit=10000",
+      "displayname": "WaybackMachine Urls Json Version"
+    }
+  ],
+  "CMSDetect": [
+    {
+      "query": "https://whatcms.org/?s=targetDomain",
+      "displayname": "CMS Detect"
+    }
+  ],
+  "Yandex": [
+    {
+      "query": "https://yandex.com/search/?text=site:\"targetDomain\"",
+      "displayname": "Yandex Search"
+    }
+  ],
+  "Openbugbounty": [
+    {
+      "query": "https://www.openbugbounty.org/search/?search=targetDomain",
+      "displayname": "Openbugbounty"
+    }
+  ],
+  "Reddit": [
+    {
+      "query": "https://www.reddit.com/search/?q=targetDomain",
+      "displayname": "Reddit Search"
+    },
+    {
+      "query": "https://www.reddit.com/search/?q=targetDomain&source=recent",
+      "displayname": "Reddit Search Recent"
+    }
+  ],
+  "Youtube": [
+    {
+      "query": "https://www.youtube.com/results?search_query=targetDomain",
+      "displayname": "Youtube Search"
+    }
+  ],
+  "CVE": [
+    {
+      "query": "https://www.exploit-db.com/search?cve=targetDomain",
+      "displayname": "ExploitDB Search"
+    },
+    {
+      "query": "https://cvedb.shodan.io/cve/targetDomain",
+      "displayname": "Shodan Search"
+    },
+    {
+      "query": "https://vulners.com/api/v3/search/id/?id=targetDomain",
+      "displayname": "Vulners Search"
+    }
+  ]
+}
+
